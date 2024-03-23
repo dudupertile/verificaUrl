@@ -1,0 +1,16 @@
+
+url = input("digite a url: ") 
+url_digitada = url
+url_segura = url[0:5]
+nets = "https"
+net = "http"
+
+if url_segura == net:
+        print("URL é segura")
+
+elif  net not in url and nets not in url:
+       print("Formato invalido")
+else:
+        print("Não não é segura")
+
+
